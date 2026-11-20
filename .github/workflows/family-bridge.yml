@@ -1,0 +1,11 @@
+name: Family bridge artifacts
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bridge:
+    uses: ./.github/workflows/bridge.yml
